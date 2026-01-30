@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Breadbox Buddy - Phone Holder & Charger</title>
+    <meta name="robots" content="noindex,nofollow">
+    <style>
+   
+         {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+       
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background-color: : #f8f8f8;
+        }
+       
+     
+        header {
+            background-color: #3BB9FF;
+            padding: 20px;
+            text-align: center;
+        }
+       
+        h1 {
+            color: white;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+       
+     
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+       
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+       
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+       
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+       
+      
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+       
+    
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+       
+        h2 {
+            color: #3BB9FF;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+       
+        h3 {
+            color: #555;
+            margin: 15px 0 10px 0;
+        }
+       
+        p {
+            margin-bottom: 15px;
+        }
+       
+       
+        .product-image {
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #3BB9FF;
+            border-radius: 5px;
+        }
+       
+      
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+       
+        .feature-box {
+            width: 30%;
+            min-width: 250px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3BB9FF;
+        }
+       
+     
+        .price {
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+       
+        .price-tag {
+            font-size: 36px;
+            color: #3BB9FF;
+            font-weight: bold;
+        }
+       
+     
+        .button {
+            display: inline-block;
+            background-color: #3BB9FF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+       
+        .button:hover {
+            background-color: #e59500;
+        }
+       
+     
+        .stores {
+            text-align: center;
+            margin-top: 20px;
+        }
+       
+        .store-logo {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+       
+    
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+       
+       
+        @media (max-width: 768px) {
+            .feature-box {
+                width: 100%;
+            }
+           
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Breadbox Buddy</h1>
+        <p style="color: white; font-size: 18px;">The toast of the town, for your phone to settle down.</p>
+    </header>
+   
+   
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#target">Who It's For</a></li>
+            <li><a href="#buy">Where to Buy</a></li>
+        </ul>
+    </nav>
+   
+
+    <div class="container">
+        <img src="images/Breadbox.jpg" alt="Breadbox Buddy in kitchen" class="product-image">
+       
+     
+        <section id="about">
+            <h2>About Breadbox Buddy</h2>
+            <p>Have you ever been cooking in the kitchen and you can't find the perfect place for your phone? Or your phone dies while watching a show? Breadbox Buddy solves both problems!</p>
+            <p>With Breadbox Buddy you can have a convenient phone holder and charger in one. It doesn't look out of place or tacky sitting in your kitchen.</p>
+        </section>
+       
+   
+        <section id="features">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Phone Holder</h3>
+                    <p>Perfect place to put your phone while cooking or watching shows.</p>
+                </div>
+               
+                <div class="feature-box">
+                    <h3>Charger</h3>
+                    <p>Keeps your phone charged so you don't miss anything.</p>
+                </div>
+               
+                <div class="feature-box">
+                    <h3>Good Looking</h3>
+                    <p>Blends in with kitchen appliances. Not tacky like other holders.</p>
+                </div>
+            </div>
+        </section>
+       
+        
+        <section>
+            <h2>Price</h2>
+            <div class="price">
+                <p class="price-tag">$29.99</p>
+                <p>With the use of being able to both charge your phone and hold it while having the Breadbox buddy blend in with your everyday appliances in your kitchen it can keep a clean appearance.</p>
+                <a href="#" class="button">Buy Now</a>
+            </div>
+        </section>
+       
+        
+        <section id="target">
+            <h2>Who Is Breadbox Buddy For?</h2>
+           
+            <h3>Demographic:</h3>
+            <p>25-40 year olds, both females and males, middle class</p>
+           
+            <h3>Psychographic:</h3>
+            <p>Show/movie lovers that cook without the disposal of being able to see the living room TV while cooking</p>
+           
+            <h3>Behavioral:</h3>
+            <p>One time buy until broken. People who hate the tackiness of a phone holder.</p>
+           
+            <h3>Geographic:</h3>
+            <p>Globally available online and in stores like Walmart, Target, etc.</p>
+        </section>
+       
+        
+        <section id="buy">
+            <h2>Where to Buy</h2>
+            <p>Online: Amazon and Breadbox buddy website</p>
+            <p>In stores: Target, Walmart, etc.</p>
+            <p>Conveniently you can buy online and in shops. Get it at home or while shopping.</p>
+           
+            <div class="stores">
+                <div class="store-logo">Amazon</div>
+                <div class="store-logo">Target</div>
+                <div class="store-logo">Walmart</div>
+                <div class="store-logo">Our Website</div>
+            </div>
+        </section>
+       
+      
+        <section style="text-align: center; border-bottom: none;">
+            <h2>Try Breadbox Buddy Today!</h2>
+            <p>Enjoy a charged and well held phone while cooking!</p>
+            <a href="#" class="button">Order Now for $29.99</a>
+        </section>
+    </div>
+   
+   
+    <footer>
+        <p>Breadbox Buddy &copy; 2026</p>
+        <p>The toast of the town, for your phone to settle down.</p>
+    </footer>
+   
+   
+</body>
+</html>
